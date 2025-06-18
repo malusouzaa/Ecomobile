@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+    src: url(./fonts/Recursive-VariableFont_CASL\,CRSV\,MONO\,slnt\,wght.ttf);
+}
+
+.container-grid {
+    width: 80vw;
+    max-width: 80px;
+    margin: 60px ;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.promoções{
+ 
+}
+.banner-cadeiras{
+  width: 40vw;
+    max-width: 60px;
+    margin: 60px ;
+}
+.logo {
+  font-size: 24px;
+  color: #2f4f2f;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.banner input[type="text"] {
+  padding: 8px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #444;
+  font-size: 14px;
+}
+
+/* Navegação principal */
+.navegacao {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  background-color: #eee8dc;
+  padding: 10px 30px;
+  font-size: 14px;
+}
+
+.navegacao a {
+  text-decoration: none;
+  color: #444;
+}
+
+/* Categorias */
+.categorias {
+  padding: 50px 30px;
+  text-align: center;
+}
+
+.categorias h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  position: relative;
+  width: 260px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card button {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #5b8c5a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+/* Produtos */
+.produtos {
+  padding: 20px 20px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.produtos h2 {
+  font-size: 24px;
+  color: #2d5528;
+  margin-bottom: 40px;
+}
+
+.produtos-grid {
+  display: grid;
+  gap: 20px;
+  max-width: 20px;
+  margin: 0 auto;
+}
+
+.produto {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  color: #2d5528;
+  
+}
+
+.produto img {
+  width: 50%;
+  height: auto;
+  border-radius: 8px;
+}
+
